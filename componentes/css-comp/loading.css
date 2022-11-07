@@ -1,0 +1,38 @@
+
+.load{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #084851;
+    
+}
+.comp-load{
+    width: 100px;
+    height: 100px;
+    background-image: url("../../public/rick_96214.svg"
+    ) ;
+    
+    background-repeat: no-repeat;
+    position: relative;
+    animation-name: icon;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: all 1s;
+}
+@keyframes icon {
+    0%{
+       transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
+}
+.none{
+    display: none;
+}
