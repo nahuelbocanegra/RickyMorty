@@ -68,7 +68,7 @@ body {
 }
 .container-ul{
     width: 100%;
-    padding: 1rem;
+    
 }
 @media screen and (min-width:650px){
     .ul-card {
@@ -136,7 +136,7 @@ i{
   border: 2px solid #FBFBFB ;
   position: relative;
 box-shadow: 1px 1px 8px #FBFBFB;
- 
+ margin: 0 auto;
  
 }
 .status{
