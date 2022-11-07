@@ -136,6 +136,8 @@ i{
   border: 2px solid #FBFBFB ;
   position: relative;
 box-shadow: 1px 1px 8px #FBFBFB;
+ 
+ 
 }
 .status{
     position:absolute;
@@ -165,10 +167,11 @@ box-shadow: 1px 1px 8px #FBFBFB;
     width: 100%;
     height: 250px;
     border-radius: 5px;
+    margin-bottom: 5px;
    
 }
 .Card>h3{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
     padding: 5px;
 }
